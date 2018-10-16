@@ -1,0 +1,39 @@
+=========== Porque responsive ===========
+===========  Como se hace =========== 
+
+=========== Alternativas, bootstrap =========== 
+
+=========== flexbox =========== 
+
+=========== Grid ===========
+[Porque]
+
+No solo para fotos!
+
+Mover elementos dentro del DOM de un lugar a otro sin tener que usar js ni repetir codigo oculandolo y mostrandolo.
+Bootstap usa javaspcript para algo que deberia funcionar solo.
+
+
+Evita porner contenido falso
+Evita mucha cantidad de elementos anidados, divs dentro de divs.
+
+Cambiar la forma de pensar desde un ppio.
+
+Mostrar los disenos como mejor se ven en cada browser, no iguales
+Mencionar herrmaientas para trabajar con grid. Gridman
+
+
+
+
+[VS Flexbox]
+Mas facil para hacer layouts completos, flexbox cosas especificas.
+Multidimensional.
+
+
+
+[Responsive]
+Grid template areas
+
+
+[Soporte]
+https://caniuse.com/#feat=css-grid
