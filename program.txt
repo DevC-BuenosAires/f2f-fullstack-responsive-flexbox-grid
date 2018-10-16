@@ -2,7 +2,7 @@
 ===========  Como se hace =========== 
 
 =========== Alternativas, bootstrap =========== 
-
+/Users/smacagno/agrimbau/webProjects/web-responsive-meetup/grid.txt
 =========== flexbox =========== 
 
 =========== Grid ===========
@@ -33,7 +33,7 @@ Multidimensional.
 
 [Responsive]
 Grid template areas
-
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-areas2
 
 [Soporte]
 https://caniuse.com/#feat=css-grid
