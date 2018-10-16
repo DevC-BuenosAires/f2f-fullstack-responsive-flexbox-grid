@@ -1,0 +1,28 @@
+[ Intro ] (5') - Tom
+Presentacion
+Nosotros
+
+[ Porque responsive ] (5') - Tom
+Introduccion a responsive web design
+UX/eficiencia/alcance/posicionamiento
+
+[ Como se hace ] (10')  - Seba
+Herramientas principales
+Responsive desde el DOM
+Media Queries
+Frameworks
+Flexbox 
+Grid
+
+[ Setup de Ejercicio ] (5') - Tom
+
+[ Ejercicio porcentajes + explicacion ] (10') - Tom
+
+[ Ejercicio media queries + explicacion  ] (10') - Sebas
+
+[ Ejercicio Flexbox + explicacion ] (10') - Sebas
+
+[ Ejercicio Grid + explicacion ] (15') - Tom
+
+[ Preguntas ] (5')
+

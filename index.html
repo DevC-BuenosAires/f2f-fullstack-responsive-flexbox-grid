@@ -2,229 +2,280 @@
 
 <head>
     <title>Web Responsive - Flexbox & CSS Grid</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel='stylesheet' id='style-css' href='css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='style-css' href='css/base.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='style-css' href='css/style.css' type='text/css' media='all'/>
 </head>
 
 <body>
 
-    <div class="container">
-        <header>
-            <a href="">Una Web Responsive</a>
-            <a class="active" href="">Blog</a>
-            <a href="">Features</a>
-            <a href="">About us</a>
-        </header>
+<div class="container">
+    <header>
+        <a href="">Una Web Responsive</a>
+        <a class="active" href="">Blog</a>
+        <a href="">Features</a>
+        <a href="">About us</a>
+    </header>
 
 
-        <main>
-            <div class="wrap-col">
+    <main>
+        <div class="post">
+            <div class="post-margin">
 
-                <!-- Start Post Item -->
-                <div class="post">
-                    <div class="post-margin">
+                <div class="post-avatar">
+                    <div class="avatar-frame"></div>
+                    <img alt=''
+                         src='http://1.gravatar.com/avatar/16afd22c8bf5c2398b206a76c9316a3c?s=70&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G'
+                         class='avatar avatar-70 photo' height='70' width='70'/>
+                </div>
 
-                        <div class="post-avatar">
-                            <div class="avatar-frame"></div>
-                            <img alt=''
-                                 src='http://1.gravatar.com/avatar/16afd22c8bf5c2398b206a76c9316a3c?s=70&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&amp;r=G'
-                                 class='avatar avatar-70 photo' height='70' width='70' />
-                        </div>
+                <h4>The Lighthouse Effect</h4>
+                <ul class="post-status">
+                    <li><i class="fa fa-clock-o"></i>December 13, 2013</li>
+                    <li>
+                        <i class="fa fa-folder-open-o"></i><a href="#" title="View all posts in Illustration"
+                                                              rel="category">Illustration</a>
+                    </li>
+                    <li><i class="fa fa-comment-o"></i>No Comments</li>
+                </ul>
+            </div>
 
-                        <h4>The Lighthouse Effect</h4>
-                        <ul class="post-status">
-                            <li><i class="fa fa-clock-o"></i>December 13, 2013</li>
-                            <li>
-                                <i class="fa fa-folder-open-o"></i><a href="#" title="View all posts in Illustration"
-                                                                      rel="category">Illustration</a>
-                            </li>
-                            <li><i class="fa fa-comment-o"></i>No Comments</li>
-                        </ul>
-                    </div>
-
-                    <div class="featured-image">
-                        <img src="img/Port_Harbor1-610x350.jpg" class="attachment-post-standard " />
-                        <div class="post-icon">
+            <div class="featured-image">
+                <img src="img/Port_Harbor1-610x350.jpg" class="attachment-post-standard "/>
+                <div class="post-icon">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
                             </span>
-                        </div>
+                </div>
+            </div>
+
+            <div class="post-margin">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet auctor ligula. Donec eu
+                    placerat lacus, pellentesque tincidunt felis. Aliquam dictum cursus elit, et sagittis nibh
+                    tincidunt quis. Vestibulum leo dui, ullamcorper quis erat nec, accumsan imperdiet ligula.
+                    Maecenas ut dui sed arcu sodales consequat. Nulla et est ac lacus congue volutpat. Aliquam
+                    vehicula tincidunt sem eget cursus. Nam sed mollis diam. Pellentesque id felis ut diam dignissim
+                    egestas id non ipsum.
+                </p>
+                <p>
+                    Ut id magna eu eros vehicula sollicitudin at et odio. Mauris consectetur tortor in mauris
+                    aliquet
+                    feugiat. Etiam et elit arcu. Donec quis ante odio. Duis eros mauris, blandit eu tempor at,
+                    vulputate vel libero. Ut convallis metus ut magna accumsan, id consectetur metus laoreet. Sed in
+                    dolor non erat vulputate venenatis et venenatis elit. Aenean arcu turpis, aliquam non dictum
+                    sed, vehicula sed ligula. Praesent consequat eleifend ligula et faucibus. Vivamus id odio et
+                    lectus pretium mollis. Phasellus venenatis laoreet est, non dictum nisi porta eu.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="post">
+            <div class="post-margin">
+
+                <!-- Start Related Item -->
+                <div class="related-posts">
+
+                    <div class="post-avatar">
+                        <div class="avatar-frame"></div>
+                        <img width="70" height="70" src="img/one-more-beer-70x70.png"
+                             class="attachment-post-widget #"/>
                     </div>
 
-                    <div class="post-margin">
+                    <div class="related-posts-aligned">
+                        <h6><a href="#">One More Beer</a></h6>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet auctor ligula. Donec eu
-                            placerat lacus, pellentesque tincidunt felis. Aliquam dictum cursus elit, et sagittis nibh
-                            tincidunt quis. Vestibulum leo dui, ullamcorper quis erat nec, accumsan imperdiet ligula.
-                            Maecenas ut dui sed arcu sodales consequat. Nulla et est ac lacus congue volutpat. Aliquam
-                            vehicula tincidunt sem eget cursus. Nam sed mollis diam. Pellentesque id felis ut diam dignissim
-                            egestas id non ipsum.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet auctor ligula.
+                            Donec eu
                         </p>
+                    </div>
+                </div>
+                <!-- End Related Item -->
+
+
+                <!-- Start Related Item -->
+                <div class="related-posts">
+
+                    <div class="post-avatar">
+                        <div class="avatar-frame"></div>
+                        <img width="70" height="70" src="img/Port_Harbor1-70x70.jpg"
+                             class="attachment-post-widget #"/>
+                    </div>
+
+                    <div class="related-posts-aligned">
+                        <h6><a href="#">Port Harbor</a></h6>
                         <p>
-                            Ut id magna eu eros vehicula sollicitudin at et odio. Mauris consectetur tortor in mauris aliquet
-                            feugiat. Etiam et elit arcu. Donec quis ante odio. Duis eros mauris, blandit eu tempor at,
-                            vulputate vel libero. Ut convallis metus ut magna accumsan, id consectetur metus laoreet. Sed in
-                            dolor non erat vulputate venenatis et venenatis elit. Aenean arcu turpis, aliquam non dictum
-                            sed, vehicula sed ligula. Praesent consequat eleifend ligula et faucibus. Vivamus id odio et
-                            lectus pretium mollis. Phasellus venenatis laoreet est, non dictum nisi porta eu.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet auctor ligula.
+                            Donec eu
+                        </p>
+
+                    </div>
+
+                </div>
+                <!-- End Related Item -->
+                <!-- Start Related Item -->
+                <div class="related-posts">
+
+                    <div class="post-avatar">
+                        <div class="avatar-frame"></div>
+                        <img width="70" height="70" src="img/Timothy-J-Reynolds-2560x14401-70x70.jpg"
+                             class="attachment-post-widget #"/>
+                    </div>
+
+                    <div class="related-posts-aligned">
+                        <h6><a href="#">Underground Volcano</a></h6>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet auctor ligula.
+                            Donec eu
                         </p>
                     </div>
 
                 </div>
-                <!-- End Post Item -->
+                <!-- End Related Item -->
+            </div>
+        </div>
 
-                <div class="post">
-                    <div class="post-margin">
-
-                        <!-- Start Related Item -->
-                        <div class="related-posts">
-
-                            <div class="post-avatar">
-                                <div class="avatar-frame"></div>
-                                <img width="70" height="70" src="img/one-more-beer-70x70.png"
-                                     class="attachment-post-widget #" />
-                            </div>
-
-                            <div class="related-posts-aligned">
-                                <h6><a href="#">One More Beer</a></h6>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet auctor ligula.
-                                    Donec eu
-                                </p>
-                            </div>
-                        </div>
-                        <!-- End Related Item -->
+    </main>
 
 
-                        <!-- Start Related Item -->
-                        <div class="related-posts">
+    <aside class="widget-container categories">
+        <h6 class="widget-title">Categories</h6>
+        <ul>
+            <li class="cat-item cat-item-5">
+                <a href="#" title="View all posts filed under Apps">Apps</a>
+            </li>
+            <li class="cat-item cat-item-3">
+                <a href="#"
+                   title="View all posts filed under Illustration">Illustration</a>
+            </li>
+            <li class="cat-item cat-item-4">
+                <a href="#" title="View all posts filed under Logo">Logo</a>
+            </li>
+        </ul>
 
-                            <div class="post-avatar">
-                                <div class="avatar-frame"></div>
-                                <img width="70" height="70" src="img/Port_Harbor1-70x70.jpg"
-                                     class="attachment-post-widget #" />
-                            </div>
+    </aside>
 
-                            <div class="related-posts-aligned">
-                                <h6><a href="#">Port Harbor</a></h6>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet auctor ligula.
-                                    Donec eu
-                                </p>
+    <aside class="widget-container latest-posts">
+        <h6 class="widget-title">Latest Posts</h6>    <!-- Start Widget -->
+        <div class="widget-recent-posts">
 
-                            </div>
-
-                        </div>
-                        <!-- End Related Item -->
-                        <!-- Start Related Item -->
-                        <div class="related-posts">
-
-                            <div class="post-avatar">
-                                <div class="avatar-frame"></div>
-                                <img width="70" height="70" src="img/Timothy-J-Reynolds-2560x14401-70x70.jpg"
-                                     class="attachment-post-widget #" />
-                            </div>
-
-                            <div class="related-posts-aligned">
-                                <h6><a href="#">Underground Volcano</a></h6>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet auctor ligula.
-                                    Donec eu
-                                </p>
-                            </div>
-
-                        </div>
-                        <!-- End Related Item -->
-                    </div>
+            <div>
+                <div class="post-image">
+                    <div class="post-mask"></div>
+                    <img width="70" height="70" src="img/HighRes-70x70.jpg" class="attachment-post-widget #"/>
                 </div>
+
+                <h6><a href="#">The Lighthouse Effect</a></h6>
+                <span>November 02, 2013</span>
+            </div>
+
+
+            <div>
+                <div class="post-image">
+                    <div class="post-mask"></div>
+                    <img width="70" height="70" src="img/one-more-beer-70x70.png"
+                         class="attachment-post-widget #"/>
+                </div>
+
+                <h6><a href="#">One More Beer</a></h6>
+                <span>November 02, 2013</span>
+            </div>
+
+
+            <div>
+                <div class="post-image">
+                    <div class="post-mask"></div>
+                    <img width="70" height="70" src="img/Port_Harbor1-70x70.jpg"
+                         class="attachment-post-widget #"/>
+                </div>
+
+                <h6><a href="#">Port Harbor</a></h6>
+                <span>November 02, 2013</span>
 
             </div>
-        </main>
 
-        <aside>
 
-                <div class="widget-container">
-                    <h6 class="widget-title">Categories</h6>
-                    <ul>
-                        <li class="cat-item cat-item-5">
-                            <a href="#" title="View all posts filed under Apps">Apps</a>
-                        </li>
-                        <li class="cat-item cat-item-3">
-                            <a href="#"
-                               title="View all posts filed under Illustration">Illustration</a>
-                        </li>
-                        <li class="cat-item cat-item-4">
-                            <a href="#" title="View all posts filed under Logo">Logo</a>
-                        </li>
-                    </ul>
-
+            <div>
+                <div class="post-image">
+                    <div class="post-mask"></div>
+                    <img width="70" height="70" src="img/Timothy-J-Reynolds-2560x14401-70x70.jpg"
+                         class="attachment-post-widget #"/>
                 </div>
 
-                <div class="widget-container">
-                    <h6 class="widget-title">Latest Posts</h6>    <!-- Start Widget -->
-                    <div class="widget-recent-posts">
+                <h6><a href="#">Underground Volcano</a></h6>
+                <span>November 02, 2013</span>
+            </div>
 
-                        <div>
-                            <div class="post-image">
-                                <div class="post-mask"></div>
-                                <img width="70" height="70" src="img/HighRes-70x70.jpg" class="attachment-post-widget #" />
-                            </div>
+        </div>
+        <!-- End Widget -->
 
-                            <h6><a href="#">The Lighthouse Effect</a></h6>
-                            <span>November 02, 2013</span>
-                        </div>
+    </aside>
 
+    <aside class="widget-container favourite-posts">
+        <h6 class="widget-title">Favourite Posts</h6>
+        <!-- Start Widget -->
+        <div class="widget-recent-posts">
 
-                        <div>
-                            <div class="post-image">
-                                <div class="post-mask"></div>
-                                <img width="70" height="70" src="img/one-more-beer-70x70.png"
-                                     class="attachment-post-widget #" />
-                            </div>
-
-                            <h6><a href="#">One More Beer</a></h6>
-                            <span>November 02, 2013</span>
-                        </div>
-
-
-                        <div>
-                            <div class="post-image">
-                                <div class="post-mask"></div>
-                                <img width="70" height="70" src="img/Port_Harbor1-70x70.jpg"
-                                     class="attachment-post-widget #" />
-                            </div>
-
-                            <h6><a href="#">Port Harbor</a></h6>
-                            <span>November 02, 2013</span>
-
-                        </div>
-
-
-                        <div>
-                            <div class="post-image">
-                                <div class="post-mask"></div>
-                                <img width="70" height="70" src="img/Timothy-J-Reynolds-2560x14401-70x70.jpg"
-                                     class="attachment-post-widget #" />
-                            </div>
-
-                            <h6><a href="#">Underground Volcano</a></h6>
-                            <span>November 02, 2013</span>
-                           </div>
-
-                    </div>
-                    <!-- End Widget -->
-
+            <div>
+                <div class="post-image">
+                    <div class="post-mask"></div>
+                    <img width="70" height="70" src="img/HighRes-70x70.jpg" class="attachment-post-widget #"/>
                 </div>
-                
-        </aside>
 
-        <footer>
-                <p>Copyrigh &copy; 2018 Web Responsive Meetup. All Rights Reserved?</p>
+                <h6><a href="#">The Lighthouse Effect</a></h6>
+                <span>November 02, 2013</span>
+            </div>
 
-        </footer>
-    </div>
+
+            <div>
+                <div class="post-image">
+                    <div class="post-mask"></div>
+                    <img width="70" height="70" src="img/one-more-beer-70x70.png"
+                         class="attachment-post-widget #"/>
+                </div>
+
+                <h6><a href="#">One More Beer</a></h6>
+                <span>November 02, 2013</span>
+            </div>
+
+
+            <div>
+                <div class="post-image">
+                    <div class="post-mask"></div>
+                    <img width="70" height="70" src="img/Port_Harbor1-70x70.jpg"
+                         class="attachment-post-widget #"/>
+                </div>
+
+                <h6><a href="#">Port Harbor</a></h6>
+                <span>November 02, 2013</span>
+
+            </div>
+
+
+            <div>
+                <div class="post-image">
+                    <div class="post-mask"></div>
+                    <img width="70" height="70" src="img/Timothy-J-Reynolds-2560x14401-70x70.jpg"
+                         class="attachment-post-widget #"/>
+                </div>
+
+                <h6><a href="#">Underground Volcano</a></h6>
+                <span>November 02, 2013</span>
+            </div>
+
+        </div>
+        <!-- End Widget -->
+
+    </aside>
+
+    <footer>
+        <p>Copyrigh &copy; 2018 Web Responsive Meetup. All Rights Reserved?</p>
+
+    </footer>
+</div>
 
 </body>
 

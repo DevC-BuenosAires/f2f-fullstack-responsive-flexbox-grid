@@ -1,12 +1,37 @@
-=========== Porque responsive ===========
-===========  Como se hace =========== 
+[ Porque responsive ] (5')
+Introduccion a responsive web design
+UX/eficiencia/alcance/posicionamiento
 
-=========== Alternativas, bootstrap =========== 
-/Users/smacagno/agrimbau/webProjects/web-responsive-meetup/grid.txt
-=========== flexbox =========== 
+[ Como se hace ] (10') 
+Herramientas principales
+Responsive desde el DOM
+Media Queries
+Frameworks
+Flexbox 
+Grid
+
+[ Setup de Ejercicio ] (5')
+HTMl Semantico
+
+
+[ Ejercicio porcentajes + explicacion ] (10')
+
+[ Ejercicio media queries + explicacion  ] (10')
+
+[ Ejercicio Flexbox + explicacion ] (10')
+
+[ Ejercicio Grid + explicacion ] (15')
+
+[ Herramientas de Debug ] (5')
+
+[ Preguntas ] (5')
+
+
+
 
 =========== Grid ===========
 [Porque]
+/Users/smacagno/agrimbau/webProjects/web-responsive-meetup/grid.txt
 
 No solo para fotos!
 
@@ -14,10 +39,13 @@ Mover elementos dentro del DOM de un lugar a otro sin tener que usar js ni repet
 Bootstap usa javaspcript para algo que deberia funcionar solo.
 
 
-Evita porner contenido falso
+Evita poner contenido falso 
+
 Evita mucha cantidad de elementos anidados, divs dentro de divs.
 
 Cambiar la forma de pensar desde un ppio.
+
+1fr FRAMES
 
 Mostrar los disenos como mejor se ven en cada browser, no iguales
 Mencionar herrmaientas para trabajar con grid. Gridman
