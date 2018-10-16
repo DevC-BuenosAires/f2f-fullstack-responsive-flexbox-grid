@@ -1,52 +1,49 @@
 
 .container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 1em;
-    grid-template-rows: 80px 300px auto auto 80px;
-    grid-template-areas:
-        "pageHeader pageHeader pageHeader pageHeader pageHeader"
-        "postsSection postsSection postsSection categories categories"
-        "postsSection postsSection postsSection latestPosts latestPosts"
-        "postsSection postsSection postsSection favPosts favPosts"
-        "mainFooter mainFooter mainFooter mainFooter mainFooter";
+    width: 980px;
 }
 
 header{
-    /*grid-column: span 6;*/
-    grid-area: pageHeader;
+    display: inline-block;
+    height: 60px;
+    width: 980px;
+    background: black;
+    line-height: 56px;
+    margin-bottom: 20px;
 }
 
 main{
-    /*grid-column: span 4;*/
-    grid-area: postsSection;
+    width: 569px;
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+aside{
+    float: right;
+    width: 370px;
+    margin-bottom: 20px;
 }
 
 .categories{
-    /*grid-column: span 2;*/
-    grid-area: categories;
 }
 
 .latest-posts{
-    /*grid-column: span 2;*/
-    grid-area: latestPosts;
 }
+
 .favourite-posts{
-    /*grid-column: span 2;*/
-    grid-area: favPosts;
 }
 
 footer{
-    /*grid-column: span 6;*/
-    grid-area: mainFooter;
+    width: 100%;
+    display: inline-block;
+    height: 80px;
 }
 
-header{
-    display: flex;
-    align-items: center;
-    height: 60px;
-    background: #343434;
+footer p{
+    line-height: 70px;
 }
+
 
 header > a:first-child{
     margin-right: auto;
@@ -65,34 +62,17 @@ header a.active{
     color: #ffffff;
 }
 
-
 /*------------------------*/
 
 @media only screen and (min-width: 1240px){
     body{
-        max-width: 1240px;
     }
 
     .container{
-        grid-template-rows: 80px 300px auto 80px;
-        grid-template-areas:
-            "pageHeader pageHeader pageHeader pageHeader pageHeader"
-            "postsSection postsSection postsSection categories categories"
-            "postsSection postsSection postsSection favPosts latestPosts"
-            "mainFooter mainFooter mainFooter mainFooter mainFooter";
     }
 }
 
 @media only screen and (max-width: 700px){
     .container{
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, auto);
-        grid-template-areas:
-                "pageHeader"
-                "postsSection"
-                "categories"
-                "favPosts"
-                "latestPosts"
-                "mainFooter";
     }
 }
