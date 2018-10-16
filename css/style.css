@@ -1,27 +1,33 @@
 
 .container{
-    width: 980px;
+    max-width: 980px;
+    width: 100%;
 }
 
 header{
     display: inline-block;
     height: 60px;
-    width: 980px;
     background: black;
     line-height: 56px;
     margin-bottom: 20px;
+
+    max-width: 980px;
+    width: 100%;
 }
 
 main{
-    width: 569px;
+    max-width: 569px;
+    width: 59%;
+    margin-right: 1%;
+
     float: left;
     display: inline-block;
-    margin-right: 20px;
 }
 
 aside{
     float: right;
-    width: 370px;
+    max-width: 370px;
+    width: 38%;
     margin-bottom: 20px;
 }
 
